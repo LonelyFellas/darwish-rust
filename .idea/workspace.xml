@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9456497c-5aa8-445b-b6b2-6cd784e49943" name="Changes" comment="guessing game commit1" />
+    <list default="true" id="9456497c-5aa8-445b-b6b2-6cd784e49943" name="Changes" comment="结构体学习">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/world_hello" beforeDir="false" afterPath="$PROJECT_DIR$/world_hello" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +13,11 @@
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/guessing_game" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -34,6 +37,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,6 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676777001844</updated>
       <workItem from="1676777004388" duration="2243000" />
+      <workItem from="1677154186328" duration="857000" />
     </task>
     <task id="LOCAL-00001" summary="guessing game commit">
       <created>1676777113773</created>
@@ -65,7 +74,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676794077852</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="结构体学习">
+      <created>1677154224624</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677154224624</updated>
+    </task>
+    <task id="LOCAL-00005" summary="结构体学习">
+      <created>1677154439800</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677154439800</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,10 +104,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="guessing game commit" />
     <MESSAGE value="guessing game commit1" />
-    <option name="LAST_COMMIT_MESSAGE" value="guessing game commit1" />
+    <MESSAGE value="添加笔记" />
+    <MESSAGE value="结构体学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="结构体学习" />
   </component>
 </project>
