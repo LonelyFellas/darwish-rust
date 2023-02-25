@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9456497c-5aa8-445b-b6b2-6cd784e49943" name="Changes" comment="结构体学习">
+    <list default="true" id="9456497c-5aa8-445b-b6b2-6cd784e49943" name="Changes" comment="数组学习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/world_hello" beforeDir="false" afterPath="$PROJECT_DIR$/world_hello" afterDir="false" />
     </list>
@@ -51,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676777001844</updated>
       <workItem from="1676777004388" duration="2243000" />
-      <workItem from="1677154186328" duration="857000" />
+      <workItem from="1677154186328" duration="1489000" />
     </task>
     <task id="LOCAL-00001" summary="guessing game commit">
       <created>1676777113773</created>
@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677154439800</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="数组学习">
+      <created>1677328980556</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677328980556</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +118,7 @@
     <MESSAGE value="guessing game commit1" />
     <MESSAGE value="添加笔记" />
     <MESSAGE value="结构体学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="结构体学习" />
+    <MESSAGE value="数组学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组学习" />
   </component>
 </project>
