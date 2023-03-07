@@ -15,17 +15,25 @@
 
 // }
 fn main() {
-  let mut vector: Vec<i32> = vec![1, 2, 3, 4, 0, 5, 0, 9, 0, 10, 11];
+  let nums: Vec<i32> = vec![10,4,8,3];
 
-  let mut count = 0;
-  for (i , &v) in vector.clone().iter().enumerate() {
-    if matches!(v, 0) {
-      vector.remove(i - count);
-      vector.push(v as i32);
-      count += 1;
-    }
-
+  let mut vector_temp: Vec<i32> = vec![];
+  let mut left_sum = 0;
+  let mut right_sum = 0;
+  let mut num_sum = 0;
+  for v in &nums {
+    num_sum += v;
   }
 
-  println!("{:?}", vector)
+  for (i, v) in nums.iter().enumerate() {
+    if !matches!(i, 0) {
+      left_sum += nums[i - 1];
+    }
+    num_sum -=  v;
+    right_sum = num_sum;
+
+    vector_temp.push((left_sum - right_sum).abs())
+  }
+
+  println!("{:?}", vector_temp)
 }
