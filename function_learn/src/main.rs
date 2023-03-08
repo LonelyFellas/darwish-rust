@@ -106,26 +106,118 @@
 
 // }
 
-#[derive(Debug)]
-enum TrafficLight {
-    Red,
-    Yellow,
-    Green
-}
+// #[derive(Debug)]
+// enum TrafficLight {
+//     Red,
+//     Yellow,
+//     Green
+// }
 
-impl TrafficLight {
-    fn color (&self) -> &str {
-        match self {
-            TrafficLight::Red => "red",
-            TrafficLight::Yellow => "yellow",
-            TrafficLight::Green => "green"
-        }
-    }
+// impl TrafficLight {
+//     fn color (&self) -> &str {
+//         match self {
+//             TrafficLight::Red => "red",
+//             TrafficLight::Yellow => "yellow",
+//             TrafficLight::Green => "green"
+//         }
+//     }
 
+// }
+
+// fn main() {
+//     let c = TrafficLight::Yellow;
+//     assert_eq!(c.color(), "yellow");
+//     println!("{:?}", c);
+// }
+
+
+
+// fn largest<T: std::cmp::PartialOrd>(list: &[T]) -> &T {
+//     let mut largest = &list[0];
+
+//     for item in list.iter() {
+//         if item > largest {
+//             largest = item;
+//         }
+//     }
+
+//     largest
+// }
+
+// fn add<T: std::ops::Add<Output = T>>(a: T, b: T) -> T {
+//     a + b
+// }
+
+// fn main() {
+//     let number_list = vec![34, 50, 25, 100, 64];
+    
+//     let result = largest(&number_list);
+//     println!("The largest number is {}", result);
+
+//     let char_list = vec!['y', 'm', 'a', 'q'];
+//     println!("The largest char is {}", result);
+
+// }
+
+
+// struct Point<T> {
+//     x: T,
+//     y: T,
+// }
+
+// impl<T> Point<T> {
+//     fn x(&self) -> &T {
+//         &self.x
+//     }
+//     fn y(&self) -> &T {
+//         &self.y
+//     }
+// }
+
+// fn main() {
+//     let p = Point { x: 5, y: 10 };
+//     let p1 = Point { x: 10.20, y: 20.40 };
+
+//     println!("p.x = {}", p.x());
+//     println!("p.y = {}", p.y());
+
+//     println!("p1.y = {}", p1.x());
+//     println!("p1.y = {}", p1.y());
+// }
+
+
+// struct Point<T, U> {
+//     x: T,
+//     y: U,
+// }
+
+
+// impl<T, U> Point<T, U> {
+//     fn mixup<V, W>(self, other: Point<V, W>) -> Point<T, W> {
+//         Point { x: self.x, y: other.y }
+//     }
+// }
+
+
+// fn main() {
+//     let p1 = Point { x: 5, y: 10.4 };
+//     let p2 = Point { x: "Hello", y: 'c' };
+    
+//     let p3 = p1.mixup(p2);
+
+//     println!("p3.x = {}, p3.y = {}", p3.x, p3.y);
+// }
+
+fn display_array<T: std::fmt::Debug, const N: usize>(arr: &[T; N]) {
+    println!("{:?}", arr);
 }
 
 fn main() {
-    let c = TrafficLight::Yellow;
-    assert_eq!(c.color(), "yellow");
-    println!("{:?}", c);
+    let arr: [i32; 3] = [1, 2, 3];
+    display_array(&arr);
+
+    let arr: [i32; 2] = [1, 2];
+    display_array(&arr);
+
+    
 }

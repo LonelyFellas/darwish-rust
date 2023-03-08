@@ -1,63 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9456497c-5aa8-445b-b6b2-6cd784e49943" name="Changes" comment="leetcode move_zeroes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.1piuxpxbb0t5o7b.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.1piuxpxbb0t5o7b.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.3a55o8c0m1c6l7ks.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.3a55o8c0m1c6l7ks.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.3y5fimq9oz8dbsnb.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.3y5fimq9oz8dbsnb.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.3zqbebh82g3yl173.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.3zqbebh82g3yl173.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.432x6tskivgzwrpn.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.432x6tskivgzwrpn.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.4popfu4tpvrkcjl5.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.4popfu4tpvrkcjl5.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.532osbdi8hvuh4ry.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.532osbdi8hvuh4ry.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.uaqejumh6dg2awf.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/target/debug/deps/leetcode-77e8aecc04cb2bbd.uaqejumh6dg2awf.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-14sufsgjulmg6/s-giub6alglc-ilc5f2-24zvvko8o3j5b/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-14sufsgjulmg6/s-giub6alglc-ilc5f2-24zvvko8o3j5b/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-14sufsgjulmg6/s-giub6alglc-ilc5f2-24zvvko8o3j5b/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-14sufsgjulmg6/s-giub6alglc-ilc5f2.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/10y4p1bly157t6ur.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/1fmgvkcbnhzyne28.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/1gb984yb1kcev2t.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/1lbaxi66v54njlpo.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/1piuxpxbb0t5o7b.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/1qub2f1gl1tc2pt2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/1usc0d7vp9mm11f1.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/26zexf9jwb51xfoi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/2aeprc51dojfryvv.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/2cu6elibcz5l6gjl.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/2ipy1x1tjk1omils.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/2rx1dzv8snmth7e1.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/2uvhct7iruo6oxew.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/316m94xhl6rt5sso.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/3a55o8c0m1c6l7ks.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/3hkjl032oip0lpzj.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/3u38byj5cxtdqb0u.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/3zqbebh82g3yl173.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/432x6tskivgzwrpn.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/4bbo131bgaa8yfgf.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/4naywj9iuap3fyko.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/4ozs2d3hm40piofy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/4popfu4tpvrkcjl5.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/532osbdi8hvuh4ry.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/53l6llieu5i4qbih.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/5dgt4jwrhoqc3fcx.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/atd6bgdpbg5ob0b.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/h2bfuyjqzqf37g4.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/jkd6y3u847b0i1p.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/kmql48v264ansy1.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/m9q5fiklzygflj9.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/uaqejumh6dg2awf.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn-1qsgjqalqc62u/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-2blud6t8a9ahd/s-giub0w0xai-1s464yn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-6d4ekjz1ssx1/s-giub6alglc-1togc93-2oim33ahvdn4r/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-6d4ekjz1ssx1/s-giub6alglc-1togc93-2oim33ahvdn4r/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-6d4ekjz1ssx1/s-giub6alglc-1togc93-2oim33ahvdn4r/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/incremental/leetcode-6d4ekjz1ssx1/s-giub6alglc-1togc93.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/debug/leetcode" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/target/debug/leetcode" afterDir="false" />
+    <list default="true" id="9456497c-5aa8-445b-b6b2-6cd784e49943" name="Changes" comment="leetcode #2574 左右元素和的差值">
+      <change beforePath="$PROJECT_DIR$/function_learn/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/.fingerprint/function_learn-115d10a0217d3f87/output-bin-function_learn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/.fingerprint/function_learn-27522c73d6770239/output-bin-function_learn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/.fingerprint/function_learn-ff98f8a28a6281dc/output-test-bin-function_learn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.38u9gn850eo1ya2a.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.38u9gn850eo1ya2a.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.3mwxtw3u6eexwqne.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.3mwxtw3u6eexwqne.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.3qyz73h50bf4obe1.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.3qyz73h50bf4obe1.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.4t05xzrlmq522ws4.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.4t05xzrlmq522ws4.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.4yj1spkssekdle31.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.4yj1spkssekdle31.rcgu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/function_learn" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/target/debug/function_learn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78t685p-1waeea0-working/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78t685p-1waeea0-working/dep-graph.part.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78t685p-1waeea0-working/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78t685p-1waeea0-working/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78t685p-1waeea0.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78vtoaj-k7zp2b-working/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78vtoaj-k7zp2b-working/dep-graph.part.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78vtoaj-k7zp2b-working/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78vtoaj-k7zp2b-working/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78vtoaj-k7zp2b.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78y3isl-1le1859-1i8u30bin4s5d/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78y3isl-1le1859-1i8u30bin4s5d/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78y3isl-1le1859-1i8u30bin4s5d/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78y3isl-1le1859.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78t685p-x1dwlr-working/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78t685p-x1dwlr-working/dep-graph.part.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78t685p-x1dwlr-working/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78t685p-x1dwlr-working/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78t685p-x1dwlr.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78vtoaj-1lleamg-working/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78vtoaj-1lleamg-working/dep-graph.part.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78vtoaj-1lleamg-working/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78vtoaj-1lleamg-working/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78vtoaj-1lleamg.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78y3isl-1gxfo78-2mm1nqkn11ply/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78y3isl-1gxfo78-2mm1nqkn11ply/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78y3isl-1gxfo78-2mm1nqkn11ply/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78y3isl-1gxfo78.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/19rhwbyozgkuowe.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/1hopslqw2oatjq8k.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/22icela9coti0xp8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/300he8m355jmj6t6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/3hphptjj0wai140.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/3qyz73h50bf4obe1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/4t05xzrlmq522ws4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/4yj1spkssekdle31.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/h6f0xrtanswmue2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/y1o2hwnn9tvsepu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/zgfti3wedf6uq5i.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +107,7 @@
       <workItem from="1677584604482" duration="759000" />
       <workItem from="1677676660213" duration="56000" />
       <workItem from="1677766423170" duration="2423000" />
-      <workItem from="1678008494593" duration="3378000" />
+      <workItem from="1678008494593" duration="4012000" />
     </task>
     <task id="LOCAL-00001" summary="guessing game commit">
       <created>1676777113773</created>
@@ -237,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678115089967</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="leetcode #2574 左右元素和的差值">
+      <created>1678196349201</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678196349202</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +274,7 @@
     <MESSAGE value="leetcode 13 罗马数字转整数" />
     <MESSAGE value="function learning" />
     <MESSAGE value="leetcode move_zeroes" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode move_zeroes" />
+    <MESSAGE value="leetcode #2574 左右元素和的差值" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode #2574 左右元素和的差值" />
   </component>
 </project>
