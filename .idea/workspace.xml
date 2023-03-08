@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9456497c-5aa8-445b-b6b2-6cd784e49943" name="Changes" comment="leetcode #2574 左右元素和的差值">
-      <change beforePath="$PROJECT_DIR$/function_learn/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/.fingerprint/function_learn-115d10a0217d3f87/output-bin-function_learn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/.fingerprint/function_learn-27522c73d6770239/output-bin-function_learn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/.fingerprint/function_learn-ff98f8a28a6281dc/output-test-bin-function_learn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.38u9gn850eo1ya2a.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.38u9gn850eo1ya2a.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.3mwxtw3u6eexwqne.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.3mwxtw3u6eexwqne.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.3qyz73h50bf4obe1.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.3qyz73h50bf4obe1.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.4t05xzrlmq522ws4.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.4t05xzrlmq522ws4.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.4yj1spkssekdle31.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/target/debug/deps/function_learn-115d10a0217d3f87.4yj1spkssekdle31.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/function_learn" beforeDir="false" afterPath="$PROJECT_DIR$/function_learn/target/debug/function_learn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78t685p-1waeea0-working/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78t685p-1waeea0-working/dep-graph.part.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78t685p-1waeea0-working/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78t685p-1waeea0-working/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78t685p-1waeea0.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78vtoaj-k7zp2b-working/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78vtoaj-k7zp2b-working/dep-graph.part.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78vtoaj-k7zp2b-working/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78vtoaj-k7zp2b-working/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78vtoaj-k7zp2b.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78y3isl-1le1859-1i8u30bin4s5d/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78y3isl-1le1859-1i8u30bin4s5d/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78y3isl-1le1859-1i8u30bin4s5d/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1ivuu2wfftj5c/s-giu78y3isl-1le1859.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78t685p-x1dwlr-working/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78t685p-x1dwlr-working/dep-graph.part.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78t685p-x1dwlr-working/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78t685p-x1dwlr-working/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78t685p-x1dwlr.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78vtoaj-1lleamg-working/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78vtoaj-1lleamg-working/dep-graph.part.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78vtoaj-1lleamg-working/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78vtoaj-1lleamg-working/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78vtoaj-1lleamg.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78y3isl-1gxfo78-2mm1nqkn11ply/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78y3isl-1gxfo78-2mm1nqkn11ply/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78y3isl-1gxfo78-2mm1nqkn11ply/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-1za6sxvdx6tf/s-giu78y3isl-1gxfo78.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/19rhwbyozgkuowe.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/1hopslqw2oatjq8k.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/22icela9coti0xp8.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/300he8m355jmj6t6.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/3hphptjj0wai140.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/3qyz73h50bf4obe1.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/4t05xzrlmq522ws4.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/4yj1spkssekdle31.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/h6f0xrtanswmue2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/y1o2hwnn9tvsepu.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v-1xwaul4jwdtbn/zgfti3wedf6uq5i.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_learn/target/debug/incremental/function_learn-3e0vqlrvx4vjy/s-giu791getc-1l6e0v.lock" beforeDir="false" />
-    </list>
+    <list default="true" id="9456497c-5aa8-445b-b6b2-6cd784e49943" name="Changes" comment="特型学习" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +52,7 @@
       <workItem from="1677584604482" duration="759000" />
       <workItem from="1677676660213" duration="56000" />
       <workItem from="1677766423170" duration="2423000" />
-      <workItem from="1678008494593" duration="4012000" />
+      <workItem from="1678008494593" duration="4685000" />
     </task>
     <task id="LOCAL-00001" summary="guessing game commit">
       <created>1676777113773</created>
@@ -242,7 +187,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678196349202</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="范型学习">
+      <created>1678274446268</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678274446268</updated>
+    </task>
+    <task id="LOCAL-00021" summary="范型学习">
+      <created>1678274464896</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1678274464896</updated>
+    </task>
+    <task id="LOCAL-00022" summary="特型学习">
+      <created>1678284751904</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678284751904</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +241,8 @@
     <MESSAGE value="function learning" />
     <MESSAGE value="leetcode move_zeroes" />
     <MESSAGE value="leetcode #2574 左右元素和的差值" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode #2574 左右元素和的差值" />
+    <MESSAGE value="范型学习" />
+    <MESSAGE value="特型学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="特型学习" />
   </component>
 </project>
