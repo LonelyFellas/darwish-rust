@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9456497c-5aa8-445b-b6b2-6cd784e49943" name="Changes" comment="特型学习">
+    <list default="true" id="9456497c-5aa8-445b-b6b2-6cd784e49943" name="Changes" comment="例子2✅">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/target/.rustc_info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,7 @@
       <workItem from="1677766423170" duration="2423000" />
       <workItem from="1678008494593" duration="4685000" />
       <workItem from="1678969028289" duration="1596000" />
+      <workItem from="1679314467186" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="guessing game commit">
       <created>1676777113773</created>
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679150251050</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="例子2✅">
+      <created>1679314487513</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1679314487513</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +275,7 @@
     <MESSAGE value="leetcode #2574 左右元素和的差值" />
     <MESSAGE value="范型学习" />
     <MESSAGE value="特型学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="特型学习" />
+    <MESSAGE value="例子2✅" />
+    <option name="LAST_COMMIT_MESSAGE" value="例子2✅" />
   </component>
 </project>
